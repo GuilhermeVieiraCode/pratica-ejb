@@ -22,6 +22,24 @@
         <input type="hidden" name="oper" value="2" />
         <button>Listar Usuários</button>
     </form>
+    <br>
+    <form action="mensagem.do" method="GET">
+        Id: <input name="id"><br>
+        Mensagem: <input name="texto">
+        <input type="hidden" name="oper" value="1" />
+        <button>Salvar</button>
+    </form>
+    <br>
+    <form action="mensagem.do" method="GET">
+        <input type="hidden" name="oper" value="2" />
+        <button>Exibir Mensagens</button>
+    </form>
+    <br>
+    <form action="mensagem.do" method="GET">
+        Id: <input name="id"><br>
+        <input type="hidden" name="oper" value="3" />
+        <button>Pesquisar Mensagem por Id</button>
+    </form>
 
 </body>
 </html>
